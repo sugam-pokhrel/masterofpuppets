@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Post - SportsNews</title>
+    <link rel="stylesheet" href="create_post.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>SportsNews</h1>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="/login">Login</a></li>
+            <li><a href="/signup">Signup</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>Create a Post</h2>
+        <form>
+            <div class="form-group">
+                <label for="post-image">Image URL:</label>
+                <input type="url" id="post-image" name="post-image" required>
+            </div>
+            <div class="form-group">
+                <label for="post-heading">Heading:</label>
+                <input type="text" id="post-heading" name="post-heading" required>
+            </div>
+            <div class="form-group">
+                <label for="post-content">Content:</label>
+                <textarea id="post-content" name="post-content" rows="6" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Create Post</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
