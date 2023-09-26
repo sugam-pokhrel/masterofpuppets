@@ -4,9 +4,8 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .navbar {
-    background-color: #333;
+    background-color: #1e29c2;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -76,4 +75,52 @@ body {
 
 .form-group button:hover {
     background-color: #555;
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center the contents */
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px; /* Increase spacing between labels and inputs */
+    font-size: 16px; /* Increase label font size */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px; /* Increase input font size */
+}
+
+.form-group button {
+    background-color: #f44336; /* Change button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-group button:hover {
+    background-color: #d32f2f; /* Change hover color */
+}
+.navbar li {
+    margin-right: 20px;
+    padding: 5px 10px; /* Add padding to navbar items */
+}
+
+.navbar li:hover {
+    background-color: #555; /* Add hover effect */
 }
